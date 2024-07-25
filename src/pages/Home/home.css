@@ -1,0 +1,82 @@
+.Home {
+    background: linear-gradient(180deg, #1a1a1a, #2c2c2c);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 15%;
+    box-shadow: 0 0 3px rgba(229, 229, 229, 0.705);
+    transition: box-shadow 0.3s ease;
+    margin-top: 1rem;
+}
+
+.App-Light .Home {
+    background: linear-gradient(180deg, #e0e0e0, #b1b1b1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.967);
+}
+
+.Home-Text {
+    display: flex;
+    flex: 0 0 60%;
+    flex-direction: column;
+}
+
+.Home-Text h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.Home-Text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-top: 0;
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+.Home-Btns {
+    display: flex;
+    margin-left: 0.7rem;
+}
+
+.Home-Img {
+    margin-right: 15px;
+    display: flex;
+    flex: 0 0 35%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-Img img {
+    margin: 10px 0 10px 10px;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    max-height: 380px;
+    object-fit: cover;
+    box-shadow: 0 0 8px rgba(90, 89, 89, 0.809);
+    transition: box-shadow 0.3s ease;
+  }
+
+  .App-Light .Home-Img img {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.967);
+  }
+
+@media (max-width: 900px) {
+    .Home {
+      margin: 0 10%;
+      margin-top: 1rem;
+    }
+  }
+
+@media (max-width: 768px) {
+ .Home {
+    margin: 0 2%;
+    flex-direction: column;
+    margin-top: 1rem;
+ }
+}
