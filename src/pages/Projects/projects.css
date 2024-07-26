@@ -1,0 +1,19 @@
+.Projects {
+    background: linear-gradient(180deg, #1a1a1a, #2c2c2c);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 15%;
+    box-shadow: 0 0 3px rgba(229, 229, 229, 0.705);
+    transition: box-shadow 0.3s ease;
+    margin-top: 1rem;
+}
+
+.App-Light .Projects {
+    background: linear-gradient(180deg, #e0e0e0, #b1b1b1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.967);
+}
+
+.Projects h1 {
+    margin: 10px auto;
+}

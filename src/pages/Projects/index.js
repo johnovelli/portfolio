@@ -1,10 +1,10 @@
 import './projects.css'
 
-function Projects() {
+function Projects({ language }) {
     return (
-        <div className='Projects'>
-            <h1>Projects</h1>
-        </div>
+            <div className='Projects'>
+                <h1>{language === 'Pt-br' ? "Em construção;" : "Under construction;"}</h1>
+            </div>
     )
 }
 

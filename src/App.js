@@ -1,43 +1,42 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import { useState } from 'react';
+import React, { useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './app.css';
 
-import Header from "./components/Header";
-import Main from "./pages/Main";
-import Home from "./pages/Home";
-import Projects from "./pages/Projects";
+import Header from './components/Header';
 import About from './pages/About';
 import Contacts from './pages/Contacts';
+import Home from './pages/Home';
+import Main from './pages/Main';
+import Projects from './pages/Projects';
 
 function App() {
-  const [language, setLanguage] = useState("Pt-br");
-  const [theme, setTheme] = useState("dark")
+  const [language, setLanguage] = useState('Pt-br');
+  const [theme, setTheme] = useState('dark');
 
   function toggleLanguage(language) {
-    setLanguage(language === "Pt-br" ? "Pt-br" : "Eng-us")
+    setLanguage(language === 'Pt-br' ? 'Pt-br' : 'Eng-us');
   }
 
   function toggleTheme(theme) {
-    setTheme(theme === "dark" ? "light" : "dark")
+    setTheme(theme === 'dark' ? 'light' : 'dark');
   }
 
   return (
-    <div className={theme === "dark" ? "App" : "App App-Light"}>
-      <Header 
-        language={ language } 
-        toggleLanguage={ toggleLanguage }
-        toggleTheme={ toggleTheme }
-        theme={ theme }
+    <div className={theme === 'dark' ? 'App' : 'App App-Light'}>
+      <Header
+        language={language}
+        toggleLanguage={toggleLanguage}
+        toggleTheme={toggleTheme}
+        theme={theme}
       />
-        <Routes>
-          <Route path="/" element={<Main theme={ theme }/>}>
-            <Route index element={<Home language={ language }/>} />
-            <Route path="projects" element={<Projects />} />
-            <Route path="about" element={<About />} />
-            <Route path="contacts" element={<Contacts />} />
-          </Route>
-        </Routes>
+      <Routes>
+        <Route path="/" element={<Main theme={theme} />}>
+          <Route index element={<Home language={language} />} />
+          <Route path="projects" element={<Projects language={language} />} />
+          <Route path="about" element={<About language={language} />} />
+          <Route path="contacts" element={<Contacts />} />
+        </Route>
+      </Routes>
     </div>
   );
 }

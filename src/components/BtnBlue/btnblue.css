@@ -1,5 +1,5 @@
 .Btn-Blue {
-    background: linear-gradient(180deg, #0a3e46, #1036db);
+    background: linear-gradient(180deg, #1036db, #0a3e46);
     border: none;
     border-radius: 15px;
     height: 2.4rem;
@@ -22,6 +22,6 @@
 }
 
 .Btn-Blue:hover {
-    background: linear-gradient(180deg, #1036db, #0a3e46);
+    background: linear-gradient(180deg, #0a3e46, #1036db);
     transform: scale(1.05);
 }

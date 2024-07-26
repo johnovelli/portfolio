@@ -1,0 +1,76 @@
+const AtribuitionsTexts = {
+  anhembipt: {
+    logo: '/Anhembi-logo.png',
+    title: 'Universidade Anhembi Morumbi',
+    text: 'Bacharelado em Publicidade',
+    date: 'ago de 2020 - ago de 2024',
+  },
+  anhembieng: {
+    logo: '/english-logo.png',
+    title: 'Anhembi Morumbi University',
+    text: 'Bachelor in Advertising',
+    date: 'Aug 2020 - Aug 2024',
+  },
+  englishpt: {
+    logo: '/english-logo.png',
+    title: 'Língua Inglesa',
+    text: 'Nível avançado',
+    date: 'Desde 2001',
+  },
+  englisheng: {
+    logo: '/Anhembi-logo.png',
+    title: 'English Language',
+    text: 'Advanced level',
+    date: 'Since 2001',
+  },
+  backendpt: {
+    logo: '/Trybe-logo.jpg',
+    title: 'Desenvolvimento Back-End',
+    text: 'Trybe',
+    date: 'Verificação emitida em maio de 2024',
+    certificate: '/backend-certificate.png',
+    link: 'https://www.credential.net/16f06b72-fbca-41c2-a957-ed3e045b0175',
+  },
+  backendeng: {
+    logo: '/Trybe-logo.jpg',
+    title: 'Back-End Development',
+    text: 'Trybe',
+    date: 'Credential issued in May 2024',
+    certificate: '/backend-certificate.png',
+    link: 'https://www.credential.net/16f06b72-fbca-41c2-a957-ed3e045b0175',
+  },
+  frontendpt: {
+    logo: '/Trybe-logo.jpg',
+    title: 'Desenvolvimento Front-End',
+    text: 'Trybe',
+    date: 'Verificação emitida em jan de 2024',
+    certificate: '/frontend-certificate.png',
+    link: 'https://www.credential.net/bd632c60-e956-4054-9bb9-41c1c8474d04#gs.cq2kpw',
+  },
+  frontendeng: {
+    logo: '/Trybe-logo.jpg',
+    title: 'Front-End Development',
+    text: 'Trybe',
+    date: 'Credential issued in Jan 2024',
+    certificate: '/frontend-certificate.png',
+    link: 'https://www.credential.net/bd632c60-e956-4054-9bb9-41c1c8474d04#gs.cq2kpw',
+  },
+  pcsciencept: {
+    logo: '/Trybe-logo.jpg',
+    title: 'Ciência da Computação',
+    text: 'Trybe',
+    date: 'Verificação emitida em maio de 2024',
+    certificate: '/pcscience-certificate.png',
+    link: 'https://www.credential.net/75d945ec-7455-41a6-b1b4-a3df76bb6ac7#gs.cq7uyc',
+  },
+  pcscienceeng: {
+    logo: '/Trybe-logo.jpg',
+    title: 'Computer Science',
+    text: 'Trybe',
+    date: 'Credential issued in May 2024',
+    certificate: '/pcscience-certificate.png',
+    link: 'https://www.credential.net/75d945ec-7455-41a6-b1b4-a3df76bb6ac7#gs.cq7uyc',
+  },
+};
+
+export default AtribuitionsTexts;
