@@ -33,7 +33,7 @@ function Atribuitions({ language }) {
   const pcscience =
     language === 'Pt-br'
       ? AtribuitionsTexts.pcsciencept
-      : AtribuitionsTexts.pcscienceengs;
+      : AtribuitionsTexts.pcscienceeng;
 
   const formations = [university, enligsh];
   const certifications = [frontend, backend, pcscience];
@@ -43,8 +43,9 @@ function Atribuitions({ language }) {
       <h2>
         {language === 'Pt-br' ? 'Formação acadêmica' : 'Academic Education'}
       </h2>
-      {formations.map((formation) => (
+      {formations.map((formation, index) => (
         <Atribuition
+          key={index}
           logo={formation.logo}
           title={formation.title}
           text={formation.text}
@@ -57,8 +58,9 @@ function Atribuitions({ language }) {
             ? 'Licenças e certificados'
             : 'Licenses and Certifications'}
         </h2>
-        {certifications.map((certificate) => (
+        {certifications.map((certificate, index) => (
           <Atribuition
+            key={index}
             logo={certificate.logo}
             title={certificate.title}
             text={certificate.text}
