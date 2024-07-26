@@ -30,7 +30,7 @@ function App() {
         theme={theme}
       />
       <Routes>
-        <Route path="/" element={<Main theme={theme} />}>
+        <Route path="/" element={<Main />}>
           <Route index element={<Home language={language} />} />
           <Route path="projects" element={<Projects language={language} />} />
           <Route path="about" element={<About language={language} />} />

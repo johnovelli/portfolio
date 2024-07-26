@@ -1,3 +1,5 @@
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable react/prop-types */
 import './about.css';
 
 import Atribuitions from '../../components/Atribuitions';

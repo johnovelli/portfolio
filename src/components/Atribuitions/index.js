@@ -1,3 +1,6 @@
+/* eslint-disable react/jsx-key */
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable react/prop-types */
 import './atribuitions.css';
 
 import Atribuition from '../Atribuition';
