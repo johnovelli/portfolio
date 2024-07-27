@@ -83,7 +83,7 @@
 
 @media (max-width: 768px) {
     .Contact {
-        margin: 0 10%;
+        margin: 0 2%;
         margin-top: 1rem;
     }
 
@@ -94,5 +94,9 @@
 
     .Contact-Div {
         margin-top: 5px;
+    }
+
+    .Contact-Div img {
+        height: 5.5rem;
     }
 }
