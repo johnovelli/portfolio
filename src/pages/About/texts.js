@@ -1,7 +1,7 @@
 const AboutTexts = {
   'pt-br': {
     title: 'Muito prazer! Meu nome é George Novelli Tarlazis.',
-    text: `Meu interesse por programação iniciou na adolescência, mas acabei me formando em Publicidade e Propaganda e construí uma carreira de 8 anos em eventos corporativos, onde fui do zero até técnico de vídeo e streaming de eventos ao vivo. Atuei em diversas funções e programas, nesse período entendi a importância do trabalho em equipe. Tenho inglês avançado, prefiro buscar e consumir conteúdos na língua inglesa, o que sempre facilitou meu crescimento profissional. Busco atuar no ramo que sempre desejei e todas as experiências anteriores têm sido essenciais para essa transição.`,
+    text: `Meu interesse por programação iniciou na adolescência, mas acabei me formando em Publicidade e Propaganda, construí uma carreira de 8 anos em eventos corporativos, onde fui do zero até técnico de vídeo e streaming de eventos ao vivo. Atuei em diversas funções e programas, nesse período entendi a importância do trabalho em equipe. Tenho inglês avançado, prefiro buscar e consumir conteúdos na língua inglesa, o que sempre facilitou meu crescimento profissional. Busco atuar neste ramo que sempre desejei e todas as experiências anteriores têm sido essenciais para essa transição.`,
   },
   'en-us': {
     title: 'Nice to meet you! My name is George Novelli Tarlazis.',
