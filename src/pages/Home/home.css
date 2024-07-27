@@ -83,4 +83,17 @@
     flex-direction: column;
     margin-top: 1rem;
   }
+
+  .Home-Text h2 {
+    font-size: 1.8rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .Home-Text p {
+    line-height: 1.4;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
