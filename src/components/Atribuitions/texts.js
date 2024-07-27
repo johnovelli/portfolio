@@ -15,13 +15,13 @@ const AtribuitionsTexts = {
     logo: '/Anhembi-logo.png',
     title: 'Bacharelado em Publicidade',
     text: 'Universidade Anhembi Morumbi',
-    date: 'Ago de 2020 - Ago de 2024',
+    date: 'Maio de 2010 - Maio de 2014',
   },
   anhembieng: {
     logo: '/Anhembi-logo.png',
     title: 'Bachelor in Advertising',
     text: 'Anhembi Morumbi University',
-    date: 'Aug 2020 - Aug 2024',
+    date: 'May 2010 - May 2014',
   },
   englishpt: {
     logo: '/english-logo.png',
