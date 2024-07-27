@@ -16,7 +16,7 @@ function Contacts() {
         <a href={links.linkedin} target="_blank" rel="noopener noreferrer">
         <div className='Contact-Div'>
           <img src={linkedIn} />
-             <h3>LinkedIn</h3>
+             <h3>LinkedIn<br />linkedin.com/in/joh-novelli</h3>
         </div>
         </a>
         <a href={links.github} target="_blank" rel="noopener noreferrer">
