@@ -7,6 +7,7 @@ import BtnBlue from '../../components/BtnBlue';
 import links from '../../components/links';
 import Skills from '../../components/Skills';
 import About from '../About';
+import Contacts from '../Contacts';
 import Projects from '../Projects';
 import HomeTexts from './texts';
 
@@ -38,6 +39,10 @@ function Home({ language }) {
         {language === 'Pt-br' ? 'Projetos' : 'Projects'}
       </h1>
       <Projects language={language} />
+      <h1 className="Section-Name">
+        {language === 'Pt-br' ? 'Contatos' : 'Contacts'}
+      </h1>
+      <Contacts />
     </div>
   );
 }

@@ -1,0 +1,20 @@
+/* main.css */
+.Main {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    /* Garante que o conteúdo se estenda até o final da tela */
+}
+
+.Main-Content {
+    flex: 1;
+    /* Faz com que o conteúdo ocupe todo o espaço disponível */
+}
+
+/* footer.css */
+.Footer {
+    margin-top: auto;
+    margin-bottom: 0;
+    text-align: center;
+    /* Empurra o footer para o final da tela */
+}

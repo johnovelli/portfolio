@@ -1,0 +1,97 @@
+.Contact {
+    background: linear-gradient(180deg, #1a1a1a, #2c2c2c);
+    border-radius: 15px;
+    display: flex;
+    margin: 5px 15%;
+    box-shadow: 0 0 3px rgb(241, 239, 239);
+    transition: box-shadow 0.3s ease;
+    margin-top: 1.2rem;
+}
+
+.App-Light .Contact {
+    background: linear-gradient(180deg, #c7c7c7, #acabab);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.967);
+}
+
+.Contact-Content {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.Contact-Content a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
+.Contact-Content a:hover {
+    color: #7f7f7f;
+}
+
+.App-Light .Contact-Content a {
+    color: #151515;
+}
+
+.App-Light .Contact-Content a:hover {
+    color: #434242;
+}
+
+.Contact-Div {
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: fit-content;
+}
+
+.Contact-Div img {
+    height: 6rem;
+}
+
+.Contact-Div h3 {
+    margin-left: 10px;
+}
+
+@media (max-width: 1450px) {
+    .Contact-Content {
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .Contact {
+        flex-direction: column;
+        margin: 0 10%;
+        margin-top: 1rem;
+    }
+
+    .Contact-Content {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .Contact-Div {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Contact {
+        margin: 0 10%;
+        margin-top: 1rem;
+    }
+
+    .Contact-Content {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .Contact-Div {
+        margin-top: 5px;
+    }
+}

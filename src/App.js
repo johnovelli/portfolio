@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './app.css';
 
@@ -10,8 +10,16 @@ import Main from './pages/Main';
 import Projects from './pages/Projects';
 
 function App() {
-  const [language, setLanguage] = useState('Pt-br');
-  const [theme, setTheme] = useState('light');
+  const [language, setLanguage] = useState(localStorage.getItem('language') || 'Pt-br');
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
+
+  useEffect(() => {
+    localStorage.setItem('language', language);
+  }, [language]);
+
+  useEffect(() => {
+    localStorage.setItem('theme', theme);
+  }, [theme]);
 
   function toggleLanguage(language) {
     setLanguage(language === 'Pt-br' ? 'Pt-br' : 'Eng-us');
