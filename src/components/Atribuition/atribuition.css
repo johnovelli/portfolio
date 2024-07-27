@@ -18,24 +18,50 @@
 }
 
 .Atribuition-Text {
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex: 80%;
     flex-direction: column;
 }
 
+
 .Atribuition-Text h3 {
+    font-size: 1.3rem;
     margin: 0;
 }
 
 .Atribuition-Text p {
+    color: rgb(198, 197, 197);
+    font-size: 1.2rem;
+    font-weight: 600;
     margin: 0;
     margin-top: 4px;
 }
 
+.App-Light .Atribuition-Text p{
+    color: rgb(65, 65, 65);
+}
+
+.Atribuition-Text span {
+    color: #cdcdcd;
+    font-size: 1.1rem;
+    margin: 0;
+    margin-top: 2px;
+}
+
+.App-Light .Atribuition-Text span {
+    color: #222222;
+}
+
 .Atribuition-Text img{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.967);
     margin-top: 3px;
     margin-bottom: 3px;
     height: 4.1rem;
+}
+
+.Atribuition-Text img:hover{
+    box-shadow: 0 0 10px rgba(46, 45, 45, 0.967);
 }
 
 .Atribuition-Certificate {
@@ -48,7 +74,18 @@
 }
 
 .Atribuition-Certificate a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
     color: white;
+    text-decoration: none;
+    font-style: none;
+    margin-left: 2%;
+}
+
+.App-Light .Atribuition-Certificate a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+
     text-decoration: none;
     font-style: none;
     margin-left: 2%;

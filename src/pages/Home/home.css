@@ -4,13 +4,13 @@
     display: flex;
     justify-content: space-between;
     margin: 5px 15%;
-    box-shadow: 0 0 3px rgba(229, 229, 229, 0.705);
+    box-shadow: 0 0 3px rgb(241, 239, 239);
     transition: box-shadow 0.3s ease;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
 }
 
 .App-Light .Home {
-    background: linear-gradient(180deg, #e0e0e0, #b1b1b1);
+    background: linear-gradient(180deg, #e5e5e5, #c5c4c4);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.967);
 }
 
@@ -29,10 +29,10 @@
 }
 
 .Home-Text p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1rem;
-    line-height: 1.5;
-    font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-weight: 400;
     margin-top: 0;
     margin-left: 25px;
     margin-right: 25px;
@@ -69,8 +69,9 @@
     font-size: 2.2rem;
   }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .Home {
+      flex-direction: column;
       margin: 0 10%;
       margin-top: 1rem;
     }

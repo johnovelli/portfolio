@@ -1,11 +1,11 @@
 .Header {
-    background-color: #181616;
+    background: linear-gradient(180deg, #1a1a1a, #1c1b1b);
     color: #fff;
     height: 100%;
   }
 
   .Header-Light {
-    background-color: #D2D2D2;
+    background: linear-gradient(180deg, #ffffff, #cccbcb);
     color: #181616;
   }
 

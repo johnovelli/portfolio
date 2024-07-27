@@ -1,6 +1,6 @@
 html {
   overflow-y: scroll;
-}
+} 
 
 body {
     margin: 0;
@@ -15,6 +15,6 @@ body {
   }
   
   .App-Light {
-    background-color: #c5c5c5;
+    background-color: #c1c1c1;
     color: #181616;
   }

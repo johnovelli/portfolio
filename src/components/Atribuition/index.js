@@ -2,7 +2,16 @@
 /* eslint-disable react/prop-types */
 import './atribuition.css';
 
-function Atribuition({ logo, title, text, date, certificate, access, link }) {
+function Atribuition({
+  logo,
+  title,
+  text,
+  date,
+  certificate,
+  access,
+  link,
+  pdf,
+}) {
   return (
     <div className="Atribuition">
       <div className="Atribuition-Img">
@@ -11,10 +20,12 @@ function Atribuition({ logo, title, text, date, certificate, access, link }) {
       <div className="Atribuition-Text">
         <h3>{title}</h3>
         <p>{text}</p>
-        <p>{date}</p>
+        <span>{date}</span>
         {certificate ? (
           <div className="Atribuition-Certificate">
-            <img src={certificate} />
+            <a href={pdf} target="_blank" rel="noopener noreferrer">
+              <img src={certificate} />
+            </a>
             <a href={link} target="_blank" rel="noopener noreferrer">
               {access}
             </a>

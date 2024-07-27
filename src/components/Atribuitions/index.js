@@ -1,14 +1,19 @@
-/* eslint-disable react/jsx-key */
-/* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/prop-types */
-import './atribuitions.css';
-
+import React, { useState } from 'react';
 import Atribuition from '../Atribuition';
+import './atribuitions.css';
 import AtribuitionsTexts from './texts';
 
 function Atribuitions({ language }) {
+  const [showAllCertifications, setShowAllCertifications] = useState(false);
+
   const access =
     language === 'Pt-br' ? 'Acesse o certificado' : 'Access the certificate';
+
+  const trybe =
+    language === 'Pt-br'
+      ? AtribuitionsTexts.trybept
+      : AtribuitionsTexts.trybeeng;
 
   const university =
     language === 'Pt-br'
@@ -35,14 +40,20 @@ function Atribuitions({ language }) {
       ? AtribuitionsTexts.pcsciencept
       : AtribuitionsTexts.pcscienceeng;
 
-  const formations = [university, enligsh];
-  const certifications = [frontend, backend, pcscience];
+  const formations = [trybe, university, enligsh];
+  const certifications = [backend, frontend, pcscience];
+
+  const visibleCertifications = showAllCertifications
+    ? certifications
+    : certifications.slice(0, 2);
+
+  const toggleShowAllCertifications = () => {
+    setShowAllCertifications(!showAllCertifications);
+  };
 
   return (
     <div className="Atribuitions">
-      <h2>
-        {language === 'Pt-br' ? 'Formação acadêmica' : 'Academic Education'}
-      </h2>
+      <h2>{language === 'Pt-br' ? 'Formação' : 'Education'}</h2>
       {formations.map((formation, index) => (
         <Atribuition
           key={index}
@@ -53,23 +64,30 @@ function Atribuitions({ language }) {
         />
       ))}
       <div className="Licenses">
-        <h2>
-          {language === 'Pt-br'
-            ? 'Licenças e certificados'
-            : 'Licenses and Certifications'}
-        </h2>
-        {certifications.map((certificate, index) => (
+        <h2>{language === 'Pt-br' ? 'Certificados' : 'Certifications'}</h2>
+        {visibleCertifications.map((certificate, index) => (
           <Atribuition
             key={index}
             logo={certificate.logo}
             title={certificate.title}
             text={certificate.text}
-            date={certificate.date}
             certificate={certificate.certificate}
             access={access}
             link={certificate.link}
+            pdf={certificate.pdf}
           />
         ))}
+        {certifications.length > 2 && (
+          <button onClick={toggleShowAllCertifications} className="ShowMore">
+            {showAllCertifications
+              ? language === 'Pt-br'
+                ? 'Ver menos'
+                : 'Show less'
+              : language === 'Pt-br'
+                ? 'Ver mais'
+                : 'Show more'}
+          </button>
+        )}
       </div>
     </div>
   );

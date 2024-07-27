@@ -66,7 +66,7 @@
     height: 27px;
     position: relative;
     display: block;
-    background-color: #181818;
+    background-color: #ebebeb; /* Fundo claro */
     border-radius: 200px;
     box-shadow: 0px 5px 15px black;
     transition: 0.4s;
@@ -75,13 +75,14 @@
   }
   
   label::after {
-    background: linear-gradient(180deg, #777, #3a3a3a);
+    background: linear-gradient(180deg, #ffcc89, #d8860b); /* Laranja */
     border-radius: 200px;
     box-shadow: 0px 5px 15px black;
     content: "";
     height: 27px;
     position: absolute;
     width: 25px;
+    left: calc(100% - 25px); /* Começa à direita */
     transition: 0.3s;
   }
   
@@ -93,14 +94,13 @@
     z-index: 1;
   }
   
-  input:checked+label {
-    background-color: #ebebeb;
+  input:checked + label {
+    background-color: #181818; /* Fundo escuro quando selecionado */
   }
   
-  input:checked+label::after {
-    background: linear-gradient(180deg, #ffcc89, #d8860b);
-    left: 55px;
-    transform: translateX(-100%);
+  input:checked + label::after {
+    background: linear-gradient(180deg, #777, #3a3a3a); /* Cinza escuro quando selecionado */
+    left: 0; /* Move para a esquerda */
   }
   
 

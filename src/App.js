@@ -11,7 +11,7 @@ import Projects from './pages/Projects';
 
 function App() {
   const [language, setLanguage] = useState('Pt-br');
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('light');
 
   function toggleLanguage(language) {
     setLanguage(language === 'Pt-br' ? 'Pt-br' : 'Eng-us');

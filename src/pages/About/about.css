@@ -26,15 +26,15 @@
     font-size: 1.6rem;
     margin-left: 30px;
     margin-right: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     margin-top: 10%;
 }
 
 .About-Text p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     line-height: 1.5;
-    font-weight: 600;
+    font-weight: 400;
     margin-top: 10px;
     margin-left: 30px;
     margin-right: 30px;
@@ -45,4 +45,30 @@
     flex-direction: column;
     flex: 0 0 35%;
     margin-right: 3%;
+}
+
+@media (max-width: 1000px) {
+    .About {
+      flex-direction: column;
+      margin: 0 10%;
+      margin-top: 1rem;
+    }
+  }
+
+@media (max-width: 768px) {
+ .About {
+    margin: 0 2%;
+    flex-direction: column;
+    margin-top: 1rem;
+ }
+
+ .About-Text h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.About-Text p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 }

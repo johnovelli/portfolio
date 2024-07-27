@@ -8,6 +8,7 @@ import GitHub from '../../assets/github_black.png';
 import LinkedIn from '../../assets/linkedin_black.png';
 import BrFlag from '../../assets/pt_br.png';
 import WhatsApp from '../../assets/whats_black.png';
+import links from '../links';
 
 function TopHeader({ language, toggleLanguage, theme, toggleTheme }) {
   return (
@@ -19,16 +20,16 @@ function TopHeader({ language, toggleLanguage, theme, toggleTheme }) {
           <p onClick={() => toggleLanguage('Eng-us')}>Eng</p>
         </div>
         <div className="Top-Right">
-          <a>
+          <a href={links.linkedin} target="_blank" rel="noopener noreferrer">
             <img src={LinkedIn} />
           </a>
-          <a>
+          <a href={links.github} target="_blank" rel="noopener noreferrer">
             <img src={GitHub} />
           </a>
-          <a>
+          <a href={links.email} target="_blank" rel="noopener noreferrer">
             <img src={Email} />
           </a>
-          <a>
+          <a href={links.whatsapp} target="_blank" rel="noopener noreferrer">
             <img src={WhatsApp} />
           </a>
           <input

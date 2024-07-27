@@ -17,3 +17,18 @@
 .Projects h1 {
     margin: 10px auto;
 }
+
+@media (max-width: 1000px) {
+    .Projects {
+      margin: 0 10%;
+      margin-top: 1rem;
+    }
+  }
+
+@media (max-width: 768px) {
+ .Projects {
+    margin: 0 2%;
+    flex-direction: column;
+    margin-top: 1rem;
+ }
+}
