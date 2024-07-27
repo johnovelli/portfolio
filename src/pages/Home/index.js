@@ -31,13 +31,13 @@ function Home({ language }) {
         </div>
       </div>
       <h1 className="Section-Name">
-        {language === 'Pt-br' ? 'Projetos' : 'Projects'}
-      </h1>
-      <Projects language={language} />
-      <h1 className="Section-Name">
         {language === 'Pt-br' ? 'Sobre Mim' : 'About Me'}
       </h1>
       <About language={language} />
+      <h1 className="Section-Name">
+        {language === 'Pt-br' ? 'Projetos' : 'Projects'}
+      </h1>
+      <Projects language={language} />
     </div>
   );
 }

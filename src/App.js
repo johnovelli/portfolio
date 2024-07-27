@@ -32,8 +32,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />}>
           <Route index element={<Home language={language} />} />
-          <Route path="projects" element={<Projects language={language} />} />
           <Route path="about" element={<About language={language} />} />
+          <Route path="projects" element={<Projects language={language} />} />
           <Route path="contacts" element={<Contacts />} />
         </Route>
       </Routes>
