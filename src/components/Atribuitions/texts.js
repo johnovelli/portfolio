@@ -1,7 +1,7 @@
 const AtribuitionsTexts = {
   trybept: {
     logo: '/Trybe-logo.jpg',
-    title: 'Desenvolvolvimento full-stack',
+    title: 'Desenvolvimento full-stack',
     text: 'Trybe Escola de Programação',
     date: 'Abr de 2023 - Ago de 2024',
   },
