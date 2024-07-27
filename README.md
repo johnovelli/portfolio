@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# George Novelli Tarlazis - Portfólio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao repositório do meu portfólio! Este repositório exibe minhas habilidades, formação, projetos e experiências em desenvolvimento de software.
+## Sobre Mim
 
-## Available Scripts
+Me chamo George Novelli Tarlazis, sou desenvolvedor Junior full-stack e back-end, focado em Javascript, Typescript, Node.js, Java e Spring. Venho de um longo período na área de eventos corporativos, onde aprendi a valorizar o trabalho em equipe e exercitei a aprendizagem de novos programas e tecnologias.
 
-In the project directory, you can run:
+## Intenção do Portfólio
+
+O objetivo deste portfólio é apresentar minhas habilidades em desenvolvimento de software, destacar os projetos que desenvolvi e mostrar minha evolução na área de tecnologia. É uma forma de compartilhar meu trabalho com possíveis empregadores, colegas e a comunidade de desenvolvimento.
+
+## Habilidades
+
+- JavaScript (Node.js, React)
+- TypeScript
+- Java (Spring Boot)
+- Gerenciamento de Banco de Dados (MySQL, MongoDB)
+- Desenvolvimento Frontend (HTML, CSS)
+- Controle de Versão (Git)
+- Colaboração em Equipe
+
+## Comandos Disponíveis
+
+No diretório do projeto, você pode executar:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Executa a aplicação em modo de desenvolvimento.\
+Abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A página será recarregada se você fizer edições.\
+Você também verá erros de lint no console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Compila a aplicação para produção na pasta `build`.\
+Ele agrupa corretamente o React no modo de produção e otimiza a construção para obter o melhor desempenho.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A construção é minificada e os nomes dos arquivos incluem os hashes.\
+Sua aplicação está pronta para ser implantada!
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Nota: esta é uma operação única. Depois de `eject`, você não pode voltar!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Se você não estiver satisfeito com a ferramenta de construção e as escolhas de configuração, você pode ejetar a qualquer momento. Este comando removerá a dependência de construção única do seu projeto.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (Webpack, Babel, ESLint, etc) diretamente para o seu projeto, para que você tenha controle total sobre eles. Todos os comandos, exceto `eject`, ainda funcionarão, mas eles apontarão para os scripts copiados para que você possa ajustá-los. Neste ponto, você está por conta própria.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contato
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sinta-se à vontade para entrar em contato comigo pelo email [joh.novelli90@gmail.com] para qualquer dúvida ou oportunidade de colaboração.
