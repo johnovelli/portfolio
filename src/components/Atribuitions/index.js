@@ -82,10 +82,10 @@ function Atribuitions({ language }) {
             {showAllCertifications
               ? language === 'Pt-br'
                 ? 'Ver menos'
-                : 'Show less'
+                : 'Less'
               : language === 'Pt-br'
                 ? 'Ver mais'
-                : 'Show more'}
+                : 'More'}
           </button>
         )}
       </div>
