@@ -28,7 +28,7 @@ function Contacts() {
         <a href={links.email} target="_blank" rel="noopener noreferrer">
         <div className='Contact-Div'>
           <img src={email} />
-          <h3>Email<br />joh.novelli90@gmail.com</h3>
+          <h3>Email<br />joh.novelli90@gmail</h3>
         </div>
         </a>
         <a href={links.whatsapp} target="_blank" rel="noopener noreferrer">

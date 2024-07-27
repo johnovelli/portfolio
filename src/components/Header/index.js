@@ -28,13 +28,13 @@ function Header({ language, toggleLanguage, theme, toggleTheme }) {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="/projects">
-                  {language === 'Pt-br' ? 'Projetos' : 'Projects'}
+                <a href="/about">
+                  {language === 'Pt-br' ? 'Sobre Mim' : 'About Me '}
                 </a>
               </li>
               <li>
-                <a href="/about">
-                  {language === 'Pt-br' ? 'Sobre Mim' : 'About Me '}
+                <a href="/projects">
+                  {language === 'Pt-br' ? 'Projetos' : 'Projects'}
                 </a>
               </li>
               <li>
