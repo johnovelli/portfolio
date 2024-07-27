@@ -31,6 +31,7 @@
     /* Definindo uma largura fixa */
     padding: 0.5rem 1.2rem;
     margin-right: 0.5rem;
+    margin-left: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
