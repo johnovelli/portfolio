@@ -31,8 +31,8 @@
 .Home-Text p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.4rem;
-  line-height: 1.4;
-  font-weight: 400;
+  line-height: 1.3;
+  font-weight: 500;
   margin-top: 0;
   margin-left: 25px;
   margin-right: 25px;
@@ -55,9 +55,9 @@
   margin: 10px 0 10px 10px;
   border-radius: 50%;
   width: 100%;
-  max-width: 380px;
+  max-width: 360px;
   height: auto;
-  max-height: 380px;
+  max-height: 360px;
   object-fit: cover;
   box-shadow: 0 0 7px #0a3e46;
   transition: box-shadow 0.3s ease;
