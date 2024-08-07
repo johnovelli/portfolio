@@ -99,8 +99,15 @@
   }
 
   .Home-Text p {
+    font-size: 1.3rem;
+    font-weight: 400;
     line-height: 1.2;
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .Home-Text ul {
+    font-size: 1.3rem;
+    font-weight: 400;
   }
 }
