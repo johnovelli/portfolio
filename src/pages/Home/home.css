@@ -62,9 +62,9 @@
   margin: 10px 0 10px 10px;
   border-radius: 50%;
   width: 100%;
-  max-width: 360px;
+  max-width: 380px;
   height: auto;
-  max-height: 360px;
+  max-height: 380px;
   object-fit: cover;
   box-shadow: 0 0 7px #0a3e46;
   transition: box-shadow 0.3s ease;
