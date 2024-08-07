@@ -31,11 +31,18 @@
 .Home-Text p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.4rem;
-  line-height: 1.3;
+  line-height: 1.2;
   font-weight: 500;
-  margin-top: 0;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin: 0 25px;
+}
+
+.Home-Text ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  margin-top: 0.3rem;
+
 }
 
 .Home-Btns {
@@ -92,7 +99,7 @@
   }
 
   .Home-Text p {
-    line-height: 1.4;
+    line-height: 1.2;
     margin-left: 10px;
     margin-right: 10px;
   }

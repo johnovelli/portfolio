@@ -1,14 +1,29 @@
 const HomeTexts = {
+
   'pt-br': {
     greeting: 'Olá, seja bem-vindo(a)!',
     introduction:
-      'Desenvolvedor fullstack , Javascript, Typescript, React, Node, Java e Spring, tenho como foco o back-end. Venho de um longo período na área de eventos corporativos, onde aprendi a valorizar o trabalho em equipe e exercitei a aprendizagem de novos programas e tecnologias.',
+      'Sou desenvolvedor full-stack com foco em back-end. Tenho experiência na construção de aplicações utilizando JavaScript, TypeScript, React, Node.js, Java e Spring. Minhas principais competências incluem:',
+    skills: [
+      'Desenvolvimento e consumo de APIs REST.',
+      'Criação, segurança e gerenciamento de operações CRUD.',
+      'Implementação de testes automatizados.',
+      'Criação de interfaces dinâmicas e responsivas.',
+    ],
   },
+  
   'en-us': {
     greeting: 'Hello, welcome!',
     introduction:
-      "Full-stack developer, specializing in JavaScript, TypeScript, React, Node.js, Java, and Spring, with a focus on backend development. I come from a background in corporate events, where I learned to value teamwork and practiced learning new programs and technologies.",
+      "I'm a full-stack developer with a focus on backend development. I have experience building applications using JavaScript, TypeScript, React, Node.js, Java, and Spring. My core competencies include:",
+    skills: [
+      'Developing and consuming REST APIs.',
+      'Creating, securing, and managing CRUD operations.',
+      'Implementing automated tests.',
+      'Building dynamic and responsive interfaces.',
+    ],
   },
 };
 
 export default HomeTexts;
+

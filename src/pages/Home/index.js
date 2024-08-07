@@ -21,6 +21,11 @@ function Home({ language }) {
         <div className="Home-Text">
           <h2>{languageInfo.greeting}</h2>
           <p>{languageInfo.introduction}</p>
+          <ul>
+            {languageInfo.skills.map((skill, index) => (
+            <li key={index}>{skill}</li>
+            ))}
+          </ul>
           <div className="Home-Btns">
             <BtnBlue name="LinkedIn" link={links.linkedin} />
             <BtnBlue name="GitHub" link={links.github} />

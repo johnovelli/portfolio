@@ -13,7 +13,8 @@ function About({ language }) {
     <div className="About">
       <div className="About-Text">
         <h2>{language === 'Pt-br' ? Pt.title : Eng.title}</h2>
-        <p>{language === 'Pt-br' ? Pt.text : Eng.text}</p>
+        <p>{language === 'Pt-br' ? Pt.textBlock1 : Eng.textBlock1}</p>
+        <p>{language === 'Pt-br' ? Pt.textBlock2 : Eng.textBlock2}</p>
       </div>
       <div className="About-Atribuitions">
         <Atribuitions language={language} />
@@ -23,3 +24,4 @@ function About({ language }) {
 }
 
 export default About;
+
