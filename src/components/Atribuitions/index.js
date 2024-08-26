@@ -11,37 +11,30 @@ function Atribuitions({ language }) {
     language === 'Pt-br' ? 'Acesse o certificado' : 'Access the certificate';
 
   const trybe =
-    language === 'Pt-br'
-      ? AtribuitionsTexts.trybept
-      : AtribuitionsTexts.trybeeng;
+    language === 'Pt-br'  ? AtribuitionsTexts.trybept : AtribuitionsTexts.trybeeng;
 
   const university =
-    language === 'Pt-br'
-      ? AtribuitionsTexts.anhembipt
-      : AtribuitionsTexts.anhembieng;
+    language === 'Pt-br' ? AtribuitionsTexts.anhembipt : AtribuitionsTexts.anhembieng;
 
   const enligsh =
-    language === 'Pt-br'
-      ? AtribuitionsTexts.englishpt
-      : AtribuitionsTexts.englisheng;
+    language === 'Pt-br' ? AtribuitionsTexts.englishpt  : AtribuitionsTexts.englisheng;
 
-  const frontend =
-    language === 'Pt-br'
-      ? AtribuitionsTexts.frontendpt
-      : AtribuitionsTexts.frontendeng;
+  const java = AtribuitionsTexts.java
+
+  const fullstack =
+    language === 'Pt-br' ? AtribuitionsTexts.fullstackpt : AtribuitionsTexts.fullstackeng;
 
   const backend =
-    language === 'Pt-br'
-      ? AtribuitionsTexts.backendpt
-      : AtribuitionsTexts.backendeng;
+    language === 'Pt-br' ? AtribuitionsTexts.backendpt : AtribuitionsTexts.backendeng;
+
+  const frontend =
+    language === 'Pt-br' ? AtribuitionsTexts.frontendpt : AtribuitionsTexts.frontendeng;
 
   const pcscience =
-    language === 'Pt-br'
-      ? AtribuitionsTexts.pcsciencept
-      : AtribuitionsTexts.pcscienceeng;
+    language === 'Pt-br' ? AtribuitionsTexts.pcsciencept : AtribuitionsTexts.pcscienceeng;
 
   const formations = [trybe, university, enligsh];
-  const certifications = [backend, frontend, pcscience];
+  const certifications = [ fullstack, java, backend, frontend, pcscience];
 
   const visibleCertifications = showAllCertifications
     ? certifications

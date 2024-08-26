@@ -11,7 +11,7 @@
 
 .App-Light .Home {
   background: linear-gradient(180deg, #e5e5e5, #c5c4c4);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.967);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.967);
 }
 
 .Home-Text {
@@ -22,7 +22,7 @@
 
 .Home-Text h2 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 15px;
@@ -30,7 +30,7 @@
 
 .Home-Text p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.22rem;
   line-height: 1.2;
   font-weight: 500;
   margin: 0 25px;
@@ -38,11 +38,11 @@
 
 .Home-Text ul {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.22rem;
   font-weight: 500;
   line-height: 1.8rem;
   margin-top: 0.4rem;
-
+  margin-bottom: 8px;
 }
 
 .Home-Btns {
@@ -53,7 +53,7 @@
 .Home-Img {
   margin-right: 15px;
   display: flex;
-  flex: 0 0 35%;
+  flex: 0 0 40%;
   align-items: center;
   justify-content: center;
 }
@@ -62,9 +62,9 @@
   margin: 10px 0 10px 10px;
   border-radius: 50%;
   width: 100%;
-  max-width: 380px;
+  max-width: 420px;
   height: auto;
-  max-height: 380px;
+  max-height: 420px;
   object-fit: cover;
   box-shadow: 0 0 7px #0a3e46;
   transition: box-shadow 0.3s ease;
@@ -73,7 +73,7 @@
 .Section-Name {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.2rem;
+  font-size: 1.7rem;
 }
 
 @media (max-width: 1000px) {
